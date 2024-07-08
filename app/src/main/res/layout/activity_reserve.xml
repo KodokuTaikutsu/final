@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".ui.activities.ReserveActivity">
+
+    <TextView
+        android:id="@+id/tvRestaurantNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Restaurant Name"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etRestaurantName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter restaurant name"
+        android:inputType="text"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvDateLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter date (YYYY-MM-DD)"
+        android:inputType="date"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvTimeLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Time"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter time (HH:MM)"
+        android:inputType="time"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvPeopleLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Number of People"
+        android:textSize="16sp"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/etPeople"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter number of people"
+        android:inputType="number"
+        android:layout_marginBottom="16dp" />
+
+    <Button
+        android:id="@+id/btnReserve"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reserve"
+        android:layout_gravity="center_horizontal" />
+</LinearLayout>
